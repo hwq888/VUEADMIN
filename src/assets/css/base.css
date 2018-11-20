@@ -1,0 +1,87 @@
+@charset "utf-8";
+body,ul,li,dl,dd,dt,p{padding:0; margin: 0;}
+a{text-decoration: none;  color:#0472e3;}
+li {list-style-type:none;}
+.fl{ float: left}
+.fr{ float: right}
+.fix{ position: fixed}
+.rel{ position: relative}
+.abs{ position: absolute}
+.tl{ text-align: left}
+.tr{ text-align: right}
+.tc{ text-align: center}
+/*Flex 布局*/
+.flex_row{display: flex; flex-direction: row;}
+.flex_column{display: flex; flex-direction: column}
+.flex_row_center{justify-content: center}
+.flex_column_center{align-items: center;}
+.flex_center{justify-content: center;align-items: center;}
+.self_flex_start{align-self: center;}
+.self_flex_end{align-self: center;}
+/*Flex 布局*/
+/********** 自定义间距 ********************/
+.ml10{ margin-left: 10px;}
+.ml20{ margin-left: 20px;}
+.mr10{ margin-right: 10px;}
+.mb10{ margin-bottom: 10px;}
+.mt7{ margin-top: 7px;}
+.mt10{ margin-top: 10px;}
+.mt15{ margin-top: 15px;}
+.mt20{ margin-top: 20px;}
+.mt30{ margin-top: 30px;}
+.mt40{ margin-top: 40px;}
+.pl10{ padding-left: 10px;}
+.pl15{ padding-left: 15px;}
+.pl20{ padding-left: 20px;}
+.pr10{ padding-right: 10px;}
+.pr20{ padding-right: 20px;}
+.pt10{ padding-top: 10px;}
+.pt15{ padding-top: 15px;}
+.pt20{ padding-top: 20px;}
+.pt25{ padding-top: 25px;}
+.pt30{ padding-top: 30px;}
+.pt40{ padding-top: 40px;}
+.pt50{ padding-top: 50px;}
+.pb10{ padding-bottom: 10px;}
+.pb15{ padding-bottom: 15px;}
+.pb20{ padding-bottom: 20px;}
+.pb25{ padding-bottom: 25px;}
+.pb30{ padding-bottom: 30px;}
+.pb40{ padding-bottom: 40px;}
+.pb50{ padding-bottom: 50px;}
+/********** 自定义间距 ********************/
+
+/********** 行高 ********************/
+.lh26{ line-height: 26px;}
+.lh28{ line-height: 28px;}
+/********** 行高 ********************/
+
+/********** 线条 ********************/
+.borderTop{ border-top: 1px solid #eee;}
+.borderBottom{ border-bottom: 1px solid #eee;}
+/********** 线条 ********************/
+
+/*常用字体设置*/
+.fc-danger{color: #F56C6C;}
+.fc-success{color: #67C23A;}
+.fc-warning{color: #E6A23C;}
+.fc-info{color: #909399;}
+.fc-primary{color: #409EFF;}
+
+.f-bold{font-weight: bold;}
+
+.fs12{ font-size: 12px;}
+.fs14{ font-size: 14px;}
+.fs16{ font-size: 16px;}
+.fs18{ font-size: 18px;}
+.fs24{ font-size: 24px;}
+.fs26{ font-size: 26px;}
+
+.content-box{ background: #fff;  box-shadow: 0 1px 1px 0 rgba(0,0,0,.1); padding: 10px;}
+.table-list-box{ text-align: left;}
+.table-list-search-box{ text-align: left;}
+.table-list-page-box{ position: fixed; border:1px solid #ebeef5; left:230px; bottom:0; background: #fff; width: 100%; text-align: center; padding: 10px 0; z-index: 10}
+.table-list-link{ color: #409EFF; cursor: pointer;}
+
+
+
